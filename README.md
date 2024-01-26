@@ -35,14 +35,3 @@ Para executar este projeto, siga os passos abaixo:
 docker image build --build-arg JAR=target/clines-api-0.0.1-SNAPSHOT.jar -t caelum/clines-api:latest .
 docker-compose up
 ```
-
----
-
-## 📑 Pré-requisitos
-
-Antes de começar, certifique-se de atender aos seguintes requisitos:
-
-* Java 11 
-* Docker 19+
-* Docker Compose 1.25+
-* GNU Make 3.8+ 
